@@ -31,7 +31,7 @@
 #     else:
 #         price = 5
 #         print("支付5美元")
-    
+
 #     want_photo = input(("需要照片嗎?是/否"))
 #     if(want_photo == "是"):
 #         price += 3
@@ -69,7 +69,7 @@
 #         price +=2
 #     else:
 #         price += 3
-        
+
 # if(extra_cheese == "Y"):
 #     price +=1
 
@@ -79,11 +79,11 @@
 
 print("遊戲開始")
 direction = input("你看到一條岔路，你選? 左/右")
-if(direction == "左"):
+if direction == "左":
     action = input("你看到一條水路，你選擇? 等待/游泳")
-    if(action == "等待"):
-            color = input("選哪個顏色的門? 紅/黃/藍")
-        if(color == "黃"):
+    if action == "等待":
+        color = input("選哪個顏色的門? 紅/黃/藍")
+        if color == "黃":
             print("勝利")
         else:
             print("失敗")
